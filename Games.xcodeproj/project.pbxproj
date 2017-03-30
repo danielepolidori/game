@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		93C71B0D1E8D73C40005870A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93C71B0C1E8D73C40005870A /* main.cpp */; };
+		93C71B171E8D74F00005870A /* mapgenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93C71B151E8D74F00005870A /* mapgenerator.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		93C71B091E8D73C40005870A /* Games */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Games; sourceTree = BUILT_PRODUCTS_DIR; };
 		93C71B0C1E8D73C40005870A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		93C71B151E8D74F00005870A /* mapgenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mapgenerator.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				93C71B0C1E8D73C40005870A /* main.cpp */,
+				93C71B151E8D74F00005870A /* mapgenerator.cpp */,
 			);
 			path = Games;
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93C71B171E8D74F00005870A /* mapgenerator.cpp in Sources */,
 				93C71B0D1E8D73C40005870A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +252,7 @@
 				93C71B121E8D73C40005870A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
